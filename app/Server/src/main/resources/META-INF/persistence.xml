@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <!-- Define Persistence Unit -->
+  <persistence-unit name="my_persistence_unit">
+    <class>entiteti.Grad</class>
+    <class>entiteti.Korisnik</class>
+    <class>entiteti.Uloga</class>
+    <class>entiteti.Korpa</class>
+    <class>entiteti.Artikal</class>
+    <class>entiteti.StavkaListeZelja</class>
+    <class>entiteti.Kategorija</class>
+    <class>entiteti.StavkaKorpe</class>
+    <class>entiteti.ListaZelja</class>
+    <class>entiteti.StavkaNarudzbine</class>
+    <class>entiteti.Narudzbina</class>
+    <class>entiteti.Transakcija</class>
+  </persistence-unit>
+</persistence>
